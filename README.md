@@ -7,10 +7,12 @@ We have three models: User, Review, and Product.
 For our purposes, a Product has many Users, a User has many Products’ s, and a Review belongs to a User and to a Product.
 Product - User is a many to many relationship.
 
-## ERD
+## Entity Relatonship Diagram
+
 <div align="center">
 <img src= "./assets/Database ER diagram (crow's foot).png" width = 244>
 </div>
+
 ## MIT License
 
 Copyright (c) 2023 alvinkenyagah
