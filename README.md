@@ -9,7 +9,7 @@ Product - User is a many to many relationship.
 
 ## ERD
 
-<img src= "./assets/Database ER diagram (crow's foot).png" width = 240>
+<img src= "./assets/Database ER diagram (crow's foot).png" width = 240 text-align = "center">
 
 ## MIT License
 
