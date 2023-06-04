@@ -13,7 +13,8 @@
     Review.create(
       rating: Faker::Number.between(from: 1, to: 5),
       comment: Faker::Lorem.sentence,
-      product_id: Product.pluck(:id).sample
+      product_id: Product.pluck(:id).sample,
+      user_id: User.pluck(:id).sample
     )
   end
   
