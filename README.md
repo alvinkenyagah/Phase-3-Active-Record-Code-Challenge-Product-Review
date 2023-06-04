@@ -8,9 +8,9 @@ For our purposes, a Product has many Users, a User has many Products’ s, and a
 Product - User is a many to many relationship.
 
 ## ERD
-
-<img src= "./assets/Database ER diagram (crow's foot).png" width = 240 text-align = "center">
-
+<div align="center">
+<img src= "./assets/Database ER diagram (crow's foot).png" width = 244>
+</div>
 ## MIT License
 
 Copyright (c) 2023 alvinkenyagah
