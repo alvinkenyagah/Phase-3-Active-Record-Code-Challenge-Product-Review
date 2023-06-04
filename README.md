@@ -1,6 +1,11 @@
 # Phase-3-Active-Record-Code-Challenge-Product-Review
 
+## Description
 
+For this assignment, we'll be working with an e-commerce domain. We'll be focusing on the product reviews.
+We have three models: User, Review, and Product.
+For our purposes, a Product has many Users, a User has many Products’ s, and a Review belongs to a User and to a Product.
+Product - User is a many to many relationship.
 
 ## MIT License
 
