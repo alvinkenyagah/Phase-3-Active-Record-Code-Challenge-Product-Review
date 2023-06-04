@@ -20,7 +20,7 @@ GEM
       activerecord (>= 5.a)
       database_cleaner-core (~> 2.0.0)
     database_cleaner-core (2.0.1)
-    diff-lcs (1.4.4)
+    diff-lcs (1.5.0)
     faker (2.18.0)
       i18n (>= 1.6, < 2)
     i18n (1.8.10)
@@ -37,6 +37,19 @@ GEM
       rack
     rake (13.0.6)
     require_all (3.0.0)
+    rspec (3.12.0)
+      rspec-core (~> 3.12.0)
+      rspec-expectations (~> 3.12.0)
+      rspec-mocks (~> 3.12.0)
+    rspec-core (3.12.2)
+      rspec-support (~> 3.12.0)
+    rspec-expectations (3.12.3)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-mocks (3.12.5)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-support (3.12.0)
     ruby2_keywords (0.0.5)
     sinatra (2.1.0)
       mustermann (~> 1.0)
@@ -63,6 +76,7 @@ DEPENDENCIES
   pry
   rake
   require_all
+  rspec
   sinatra-activerecord
   sqlite3 (~> 1.4)
 
